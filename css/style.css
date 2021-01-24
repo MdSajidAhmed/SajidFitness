@@ -1,0 +1,141 @@
+@font-face{
+    font-family: sajidFont;
+    src: url('../font/ArchitectsDaughter-Regular.ttf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* css file thaka img file ka terget korta hoba */
+    background: url("../img/bg.jpg");
+    /* height:80vw; */
+    color: white;
+    font-family: sajidFont;
+    height: 2000px;
+    background-repeat: no-repeat;
+    height: 1260px
+
+}
+
+#header{
+   
+
+}
+
+.header-left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.header-center{
+    /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+
+}
+.header-right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+ 
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(199, 163, 163);
+
+}
+/* header left */
+.header-left img{
+    width: 120px;
+    /* white image change to black and black image change to white */
+    /* filter: invert(100%); */
+    
+}
+
+.header-left div{
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+}
+
+/* header right */
+
+.header-right .btn, .btn{
+    background-color: rgb(99, 87, 87);
+    color: white;
+    margin: 14px 5px;
+    padding: 6px 8px;
+    width: 102px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sajidFont;
+}
+.header-right .btn:hover, .btn:hover{
+    background-color: gray;
+    color: blanchedalmond;
+}
+
+/* container started */
+.container{
+    border: 2px solid white;
+    margin: 350px 60px;
+    padding: 24px 149px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.form-group input{
+    display: block;
+    margin: 4px auto;
+    width: 100%;
+    font-size: 19px;
+    padding: 2px 47px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #c4bebe;
+    
+
+}
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 23px;
+
+}
+
+.container .form-group{
+    text-align: center;
+}
+.container .btn{
+    display: block;
+    width: 100%;
+    margin: 12px auto;
+    padding: 0px 0px;
+    font-size: 23px;
+}
